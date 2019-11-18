@@ -17,9 +17,11 @@ namespace Hello_World
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+       
+
+        private void Button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
+            MessageBox.Show("Welcome to " + txtBxName.Text + "'s Program"); 
         }
     }
 }
